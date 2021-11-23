@@ -25,8 +25,8 @@ public class Calculator {
         return sum;
     }
 
-    public String dummyFunction(String name){
-        name = "Jay";
-        return name;
-    }
+//    public String dummyFunction(String name){
+//        name = "Jay";
+//        return name;
+//    }
 }
