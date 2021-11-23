@@ -15,19 +15,19 @@ public class CalculatorTest {
     @Test
     public void testSubtraction(){
         Calculator class1 = new Calculator();
-        Assertions.assertEquals(5,class1.subtraction(10.4,8.1),"Subtraction is not correct");
+        Assertions.assertEquals(5,class1.subtraction(10,5),"Subtraction is not correct");
     }
 
     @Test
     public void testMultiplication(){
         Calculator class1 = new Calculator();
-        Assertions.assertEquals(5,class1.subtraction(10.4,8.1),"Multiplication is not correct");
+        Assertions.assertEquals(5,class1.multiplication(5,1),"Multiplication is not correct");
     }
 
     @Test
     public void testDivision(){
         Calculator class1 = new Calculator();
-        Assertions.assertEquals(5,class1.subtraction(10.4,8.1),"Division is not correct");
+        Assertions.assertEquals(5,class1.division(25,5),"Division is not correct");
     }
 
 }
