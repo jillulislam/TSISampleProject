@@ -30,4 +30,9 @@ public class CalculatorTest {
         Assertions.assertEquals(5,class1.division(25,5),"Division is not correct");
     }
 
+//    @Test
+//    public void dummyFunctionTest(){
+//        Calculator calculator = new Calculator();
+//        Assertions.assertEquals("Jay",calculator.dummyFunction("Jay"));
+//    }
 }

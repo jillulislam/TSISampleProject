@@ -24,4 +24,9 @@ public class Calculator {
         double sum = input1 / input2;
         return sum;
     }
+
+    public String dummyFunction(String name){
+        name = "Jay";
+        return name;
+    }
 }
