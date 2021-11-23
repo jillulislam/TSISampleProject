@@ -7,6 +7,7 @@ public class Calculator {
         return sum;
     }
 
+    //function for subtraction
     public double subtraction(double input1, double input2){
         double sum = input1 - input2;
         return sum;
