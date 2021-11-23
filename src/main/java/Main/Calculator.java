@@ -26,7 +26,7 @@ public class Calculator {
     }
 
     public String dummyFunction(String name){
-        name = "Jay";
-        return name;
+        String text  = "Jay";
+        return text;
     }
 }
