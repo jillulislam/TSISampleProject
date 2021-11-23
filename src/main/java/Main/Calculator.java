@@ -13,10 +13,11 @@ public class Calculator {
     }
 
     public double multiplication(double input1, double input2){
-        double sum = input1 * input2;
+        double sum = input1 / input2;
         return sum;
     }
 
+    // function for division
     public double division(double input1, double input2){
         double sum = input1 / input2;
         return sum;
