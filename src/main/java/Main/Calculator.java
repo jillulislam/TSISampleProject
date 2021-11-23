@@ -25,8 +25,9 @@ public class Calculator {
         return sum;
     }
 
-    public String dummyFunction(String name){
-        name  = name+" Jay";
-        return name;
+    public double percentage(double amount, double percent){
+        double sum = amount*percent;
+        sum = sum/100;
+        return sum;
     }
 }

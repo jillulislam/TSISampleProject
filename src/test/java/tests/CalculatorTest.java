@@ -33,6 +33,6 @@ public class CalculatorTest {
     @Test
     public void dummyFunctionTest(){
         Calculator calculator = new Calculator();
-        Assertions.assertEquals("Tahir Jay",calculator.dummyFunction("Tahir"));
+        Assertions.assertEquals(25.0,calculator.percentage(250,10));
     }
 }
