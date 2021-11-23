@@ -15,7 +15,7 @@ public class Calculator {
 
     //function for multiplication
     public double multiplication(double input1, double input2){
-        double sum = input1 / input2;
+        double sum = input1 * input2;
         return sum;
     }
 
