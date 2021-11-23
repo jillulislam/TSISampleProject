@@ -35,4 +35,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         Assertions.assertEquals(25.0,calculator.percentage(250,10));
     }
+
+    @Test
+    public void dummyFunctinN(){
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(26.0,calculator.percentage(250,10));
+    }
 }
